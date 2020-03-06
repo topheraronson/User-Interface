@@ -66,11 +66,8 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: 0 auto;
+	text-align: center;
 }
-
-/* header {
-	background: teal;
-} */
 
 nav {
 	/* background: palegoldenrod; */
@@ -78,8 +75,97 @@ nav {
 }
 
 nav a {
-	/* background: darkred; */
 	margin-right: 65px;
 	text-decoration: none;
 	color: lightgray;
+}
+
+.call-to-action {
+	display: inline-block;
+	width: 49%;
+	height: 300px;
+	margin: 80px 3px;
+	text-align: center;
+}
+
+.call-to-action h1 {
+	font-size: 60px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.call-to-action a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	border: 1px solid black;
+	padding: 3px 25px;
+	margin: 50px;
+}
+
+.cta-image {
+	display: inline-block;
+	width: 49%;
+	margin: 45px 3px;
+	vertical-align: top;
+	text-align: right;
+}
+
+.cta {
+	border-bottom: 1px solid black;
+}
+
+.features {
+	width: 49%;
+	display: inline-block;
+	margin: 20px 3px;
+	text-align: left;
+}
+
+.about { 
+	width: 49%;
+	display: inline-block;
+	margin: 20px 3px;
+	text-align: left;
+}
+
+.seperator-image {
+	text-align: center;
+}
+
+.services {
+	width: 33%;
+	display: inline-block;
+	margin-top: 15px;
+	text-align: left;
+}
+
+.product {
+	width: 33%;
+	display: inline-block;
+	margin-top: 15px;
+	text-align: left;
+}
+
+.vision {
+	width: 33%;
+	display: inline-block;
+	margin-top: 15px;
+	text-align: left;
+}
+
+footer {
+	border-top: 1px solid black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 15px 0;
+	text-align: left;
+}
+
+footer address {
+	margin-bottom: 10px;
+}
+
+footer p {
+	margin-bottom: 10px;
 }
