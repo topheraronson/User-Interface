@@ -64,6 +64,22 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 600px;
+	width: 900px;
 	margin: 0 auto;
+}
+
+/* header {
+	background: teal;
+} */
+
+nav {
+	/* background: palegoldenrod; */
+	display: inline;
+}
+
+nav a {
+	/* background: darkred; */
+	margin-right: 65px;
+	text-decoration: none;
+	color: lightgray;
 }
